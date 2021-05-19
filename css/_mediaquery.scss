@@ -1,0 +1,126 @@
+@media (min-width: 1200px) {
+    body {
+        background-image: url(../images/bg-header-desktop.png);
+    }
+
+    .container {
+        width: 1440px;
+        padding: 2.5rem 10.25rem;
+    }
+
+    .header {
+        
+        &__title {
+            font-size: 2.775rem;
+        }
+
+        &__text {
+            font-size: 1.275rem;
+        }
+    }
+
+    .section {
+
+        &__narrow {
+            margin: 0 12.8rem;
+        }
+
+        &__icons {
+            column-gap: 1.5rem;
+        }
+
+        &__logos {
+            justify-content: space-between;
+            margin-top: 10.5rem;
+        }
+
+        &__title {
+            font-size: 2rem;
+            margin-top: 9.5rem;
+        }
+
+        &__text {
+            font-size: 1.125rem;
+        }
+    }
+
+    .row {
+        flex-direction: row;
+    }
+
+    .col {
+
+        &__right {
+            margin-right: 6.25rem;
+            margin-left: 7.5rem;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            row-gap: 3.5625rem
+
+        }
+    }   
+
+    .card__text { 
+        margin-bottom: 0;
+    }
+
+    .icon {
+
+        &__card {
+            margin-bottom: 0;
+            width: 353.3rem;
+        }
+    }
+
+    .footer__main {
+        justify-content: space-between;
+
+        &__logo {
+            width: 4rem;
+            margin: 0 10rem 0 0;
+        }
+
+        &__links {
+            width: 50%;
+            flex-direction: row;
+            flex-wrap: wrap;
+            column-gap: 4rem;
+            align-items: flex-start;
+            
+            &__item {
+                text-align: left;
+            }
+        }
+
+        &__socials {
+            width: 15%;
+            margin-left: auto;
+        }
+    }
+
+    .buttons {
+        flex-direction: row;
+        grid-gap: 1rem;
+
+        &__header {
+            margin-top: 0;
+        } 
+    }
+
+    .btn {
+        padding: 1rem 2.5rem;
+    }
+
+    .img__large {
+
+        &__computer {
+            margin-left: -13rem;
+            margin-bottom: 0;
+        }
+    }
+
+    .section__img {
+        margin-bottom: -3.125rem;
+    }
+}
